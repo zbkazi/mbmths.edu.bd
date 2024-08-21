@@ -1,7 +1,196 @@
-<h1>Medha Bikash Multilateral Technical High School</h1>
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Fullscreen canvas */
+        #backgroundCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1; /* Place behind other content */
+        }
+
+        /* Responsive design for sections */
+        .section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        /* Fade-in effect */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 dark:bg-slate-900 text-gray-800 dark:text-white">
+
+    <!-- Canvas for background animation -->
+    <canvas id="backgroundCanvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="bg-green-600 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl lg:text-3xl text-white font-bold">মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়</h1>
+            <a href="/" class="text-white text-xl font-semibold hover:text-gray-300">MBMTHS</a>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="home" class="section  shadow-md rounded-lg">
+        <h1 class="text-4xl text-center font-bold mb-4 fade-in">মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়</h1>
+        <p class="text-lg text-center mb-6">মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয় একটি শিক্ষা প্রতিষ্ঠান যা কুড়িগ্রামের কাঠালবাড়ি এলাকায় অবস্থিত। এই বিদ্যালয়ের শিক্ষা প্রতিষ্ঠান সনাক্তকরণ নম্বর বা EIIN হলো 133206। এর বিকল্প নাম মেধা বিকাশ বহুপক্ষীয় কারিগরি উচ্চ বিদ্যালয়। মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয় কারিগরি শিক্ষা বোর্ডের অধীনে পরিচালিত হয়।
 
 
-<h1 class="text-3xl">মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়</h1>
+        </p>
+        <div class="text-center">
+            <a href="#about" class="btn bg-green-600 text-white py-2 px-4 rounded shadow-md transition-transform transform hover:scale-105">আরও জানুন</a>
+        </div>
+    </section>
 
+    <!-- Additional sections here -->
+     
+    <!-- About Us Section -->
+    <section id="about" class="section shadow-md rounded-lg">
+        <h2 class="text-3xl font-bold mb-4 fade-in">আমাদের সম্পর্কে</h2>
+        <p class="text-lg mb-4 fade-in">মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয় একটি অত্যন্ত সম্মানিত শিক্ষা প্রতিষ্ঠান যা ছাত্রদের সামগ্রিক উন্নয়নের জন্য নিবেদিত। আমাদের স্কুলে শিক্ষার্থীদের কেবলমাত্র তাত্ত্বিক শিক্ষা নয়, বরং তাদের বাস্তব জীবনের দক্ষতা অর্জনেও বিশেষ গুরুত্ব দেওয়া হয়। আমরা নানা প্রকারের কারিগরি প্রশিক্ষণ এবং প্র্যাকটিক্যাল ক্লাসের মাধ্যমে শিক্ষার্থীদের প্রস্তুত করি ভবিষ্যতের চ্যালেঞ্জ মোকাবেলার জন্য।
 
-<a href="/">MBMTHS</a>
+            আমাদের শিক্ষকমণ্ডলী অত্যন্ত অভিজ্ঞ এবং দক্ষ, যারা শিক্ষার্থীদের প্রতি সদা সান্নিধ্যপূর্ণ ও সহায়ক মনোভাব নিয়ে কাজ করে থাকেন। শিক্ষকরা শুধুমাত্র পাঠ্যক্রমের বিষয়বস্তু শেখান না, বরং শিক্ষার্থীদের চরিত্র গঠন, নেতৃত্বের গুণাবলী এবং ব্যক্তিগত উন্নয়নে সাহায্য করেন।
+            
+            আমরা আধুনিক শিক্ষা প্রযুক্তি এবং শিক্ষণ পদ্ধতির মাধ্যমে একটি উদ্ভাবনী এবং সৃজনশীল পরিবেশ তৈরি করি, যেখানে প্রতিটি শিক্ষার্থী নিজস্ব সম্ভাবনা অন্বেষণ করতে পারে। আমাদের স্কুলে শিক্ষার্থীরা বিভিন্ন অতিরিক্ত কার্যক্রম যেমন সাংস্কৃতিক অনুষ্ঠান, খেলাধুলা, এবং সামাজিক সেবা কার্যক্রমে অংশগ্রহণের সুযোগ পায়, যা তাদের সামগ্রিক বিকাশে সহায়ক।
+            
+            আমাদের লক্ষ্য হল শিক্ষার্থীদেরকে কেবলমাত্র শিক্ষাগতভাবে প্রস্তুত করা নয় বরং তাদেরকে একটি পূর্ণাঙ্গ ব্যক্তিত্ব হিসেবে গড়ে তোলা, যা তাদের ভবিষ্যৎ জীবনে সাফল্যের সিঁড়ি হিসেবে কাজ করবে।</p>
+    </section>
+
+    <!-- Education Classes Section -->
+    <section id="classes" class="section  shadow-md rounded-lg">
+        <h2 class="text-3xl font-bold mb-4 fade-in">শিক্ষা ক্লাস</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="p-4  rounded shadow fade-in transition-transform transform hover:scale-105">
+                <h3 class="text-xl font-semibold mb-2">বিজ্ঞান ও প্রযুক্তি</h3>
+                <p>আমাদের বিজ্ঞান ও প্রযুক্তি কোর্সগুলি উদ্ভাবন এবং সমালোচনামূলক চিন্তাভাবনা অনুপ্রাণিত করতে ডিজাইন করা হয়েছে।</p>
+            </div>
+            <div class="p-4 rounded shadow fade-in transition-transform transform hover:scale-105">
+                <h3 class="text-xl font-semibold mb-2">কারিগরি প্রশিক্ষণ</h3>
+                <p>আমরা বিভিন্ন কারিগরি ক্ষেত্রে হাতে-কলমে প্রশিক্ষণ প্রদান করি যাতে শিক্ষার্থীরা কর্মক্ষেত্রে প্রস্তুত হয়।</p>
+            </div>
+            <div class="p-4 rounded shadow fade-in transition-transform transform hover:scale-105">
+                <h3 class="text-xl font-semibold mb-2">কলা ও মানবিক</h3>
+                <p>আমাদের কলা ও মানবিক প্রোগ্রামগুলি সৃজনশীলতা এবং সাংস্কৃতিক সচেতনতা উত্সাহিত করে।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extracurricular Section -->
+    <section id="extracurricular" class="section  shadow-md rounded-lg">
+        <h2 class="text-3xl font-bold mb-4 fade-in">অতিরিক্ত কার্যক্রম</h2>
+        <p class="text-lg mb-4 fade-in">আমাদের বিদ্যালয়ে শিক্ষার্থীদের সামগ্রিক বিকাশের জন্য বিভিন্ন ধরণের অতিরিক্ত কার্যক্রম পরিচালিত হয়, যা তাদের ব্যক্তিত্ব এবং দক্ষতা বৃদ্ধিতে সহায়ক। খেলাধুলার ক্ষেত্রেঃ আমাদের বিদ্যালয়ে বিভিন্ন খেলার আয়োজন করা হয়, যেমন ফুটবল, ক্রিকেট, বাস্কেটবল, ভলিবল এবং টেবিল টেনিস। এই কার্যক্রমগুলি শিক্ষার্থীদের শারীরিক উন্নয়ন, দলগত কাজের মনোভাব এবং স্বাস্থ্যকর জীবনযাপন সম্পর্কে সচেতন করে তোলে।
+
+            সাংস্কৃতিক অনুষ্ঠানঃ সাংস্কৃতিক কার্যক্রমের মধ্যে রয়েছে গায়কী, নৃত্য, নাটক, চিত্রাঙ্কন এবং সাহিত্যকর্মের প্রদর্শনী। এই অনুষ্ঠানের মাধ্যমে শিক্ষার্থীরা তাদের সৃজনশীলতা প্রকাশ করতে পারে এবং সাংস্কৃতিক ঐতিহ্যের প্রতি তাদের আগ্রহ বৃদ্ধি পায়।
+            
+            প্রযুক্তি ক্লাবঃ আমাদের প্রযুক্তি ক্লাব শিক্ষার্থীদের প্রযুক্তি এবং উদ্ভাবনের দুনিয়ায় প্রবেশ করায়। এখানে তারা কোডিং, রোবোটিকস, এবং ডিজিটাল মিডিয়া নিয়ে কাজ করে, যা তাদের আধুনিক প্রযুক্তির সাথে পরিচিতি প্রদান করে এবং তাদের সমস্যা সমাধানের দক্ষতা বৃদ্ধি করে।
+            
+            এই অতিরিক্ত কার্যক্রমগুলি শিক্ষার্থীদের শিক্ষাগত অভিজ্ঞতাকে পরিপূর্ণ করে তোলে এবং তাদের জীবনের বিভিন্ন ক্ষেত্রের প্রস্তুতি প্রদান করে।</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section  shadow-md rounded-lg">
+        <h2 class="text-3xl font-bold mb-4 fade-in">যোগাযোগ করুন</h2>
+        <p class="text-lg mb-4 fade-in">আমাদের ঠিকানা: <strong>মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়, ঢাকা, বাংলাদেশ।</strong></p>
+
+        <!-- Google Map -->
+        <div class="mt-8 fade-in">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.906667516456!2d90.38912521543173!3d23.751006494517913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b89357c777c1%3A0xe1a5e7cbe03c86d7!2sMedha%20Bikash%20Multilateral%20Technical%20High%20School!5e0!3m2!1sen!2sbd!4v1692621438254!5m2!1sen!2sbd" 
+                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 p-4 mt-10 text-center text-white shadow-inner">
+        <p class="text-xl lg:text-3xl">&copy; ২০২৪ মেধা বিকাশ বহুমুখী কারিগরি উচ্চ বিদ্যালয়. সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    <script>
+        // JavaScript for interactive background animation
+        const canvas = document.getElementById('backgroundCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let mouseX = 0;
+        let mouseY = 0;
+
+        // Resize canvas to full screen
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        // Create particle
+        function createParticle(x, y) {
+            const size = Math.random() * 5 + 1;
+            const speedX = (Math.random() - 0.5) * 2;
+            const speedY = (Math.random() - 0.5) * 2;
+            particles.push({ x, y, size, speedX, speedY });
+        }
+
+        // Update particles
+        function updateParticles() {
+            particles.forEach(particle => {
+                particle.x += particle.speedX;
+                particle.y += particle.speedY;
+                particle.size *= 0.95; // Shrink particle
+            });
+
+            // Remove particles that are too small
+            particles = particles.filter(particle => particle.size > 0.5);
+        }
+
+        // Draw particles
+        function drawParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(particle => {
+                ctx.beginPath();
+                ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+                ctx.fillStyle = 'rgba(0, 255, 64, 0.8)';
+                ctx.fill();
+                ctx.closePath();
+            });
+        }
+
+        // Animation loop
+        function animate() {
+            updateParticles();
+            drawParticles();
+            requestAnimationFrame(animate);
+        }
+
+        // Handle mouse movement
+        function handleMouseMove(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            createParticle(mouseX, mouseY);
+        }
+
+        // Initialize canvas and event listeners
+        window.addEventListener('resize', resizeCanvas);
+        window.addEventListener('mousemove', handleMouseMove);
+        resizeCanvas();
+        animate();
+    </script>
+</body>
+
+</html>
